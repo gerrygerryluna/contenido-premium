@@ -6,23 +6,34 @@
     <title>Contenido Premium</title>
     <style>
         body { background-color: #0d1117; color: white; font-family: sans-serif; text-align: center; padding: 40px 20px; }
-        .card { background: #161b22; max-width: 350px; margin: auto; padding: 30px; border-radius: 20px; border: 1px solid #30363d; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
-        .btn { display: block; padding: 15px; margin-top: 15px; text-decoration: none; border-radius: 10px; font-weight: bold; color: white; transition: 0.3s; }
+        .card { background: #161b22; max-width: 380px; margin: auto; padding: 30px; border-radius: 25px; border: 1px solid #30363d; box-shadow: 0 10px 40px rgba(0,0,0,0.7); }
+        h1 { color: #58a6ff; font-size: 26px; margin-bottom: 5px; }
+        .subtitle { color: #8b949e; font-size: 14px; margin-bottom: 25px; }
+        .brand-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-bottom: 30px; }
+        .brand-item { background: #0d1117; padding: 15px; border-radius: 15px; border: 1px solid #30363d; display: flex; align-items: center; justify-content: center; height: 50px; }
+        .brand-item img { max-width: 100%; max-height: 35px; object-fit: contain; }
+        .btn { display: block; padding: 16px; margin-top: 15px; text-decoration: none; border-radius: 12px; font-weight: bold; color: white; transition: 0.3s ease; }
         .btn-ws { background-color: #25d366; }
-        .btn-ws:hover { background-color: #1ebc57; transform: scale(1.03); }
         .btn-fb { background-color: #1877f2; }
-        .btn-fb:hover { background-color: #166fe5; transform: scale(1.03); }
+        .btn:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.3); }
     </style>
 </head>
 <body>
     <div class="card">
         <h1>CONTENIDO PREMIUM</h1>
-        <p>¡Lleva tu entretenimiento al siguiente nivel!</p>
-        <a href="https://wa.me" class="btn btn-ws">WHATSAPP</a>
-        <a href="https://wa.me" class="btn btn-ws">WHATSAPP</a>
-<a href="https://facebook.com" class="btn btn-fb">FACEBOOK</a>
+        <p class="subtitle">Disfruta lo mejor del streaming al mejor precio</p>
+        
+        <div class="brand-grid">
+            <div class="brand-item"><img src="https://wikimedia.org"></div>
+            <div class="brand-item"><img src="https://wikimedia.org"></div>
+            <div class="brand-item"><img src="https://wikimedia.org"></div>
+            <div class="brand-item"><img src="https://wikimedia.org"></div>
+        </div>
 
+        <a href="https://wa.me" class="btn btn-ws">WHATSAPP</a>
         <a href="https://facebook.com" class="btn btn-fb">FACEBOOK</a>
     </div>
 </body>
 </html>
+
+
